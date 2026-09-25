@@ -1,0 +1,14 @@
+shape <- "circle"
+if(shape == "rectangle") {
+  l <- 10; b <- 5
+  cat("Area =", l*b)
+} else if(shape == "square") {
+  s <- 6
+  cat("Area =", s*s)
+} else if(shape == "circle") {
+  r <- 7
+  cat("Area =", pi*r*r)
+} else {
+  b <- 10; h <- 5
+  cat("Area =", 0.5*b*h)
+}
