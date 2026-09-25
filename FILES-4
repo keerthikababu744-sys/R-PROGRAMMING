@@ -1,0 +1,12 @@
+square <- function(n) {
+  return(n*n)
+}
+numbers <- 1:5
+cat("Numbers:", numbers, "\n")
+cat("Squares:\n")
+for(i in numbers) {
+  result <- square(i)
+  cat(result, " ")
+}
+cat("\n")
+cat("Function executed successfully")
