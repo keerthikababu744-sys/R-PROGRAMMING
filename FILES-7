@@ -1,0 +1,12 @@
+marks <- c(80,75,90,85)
+cat("Vector:\n")
+print(marks)
+student <- list(name="Keerthika", age=19, mark=85)
+cat("List:\n")
+print(student)
+df <- data.frame(
+  Name=c("Anu","Banu","Cathy"),
+  Mark=c(80,75,90)
+)
+cat("Data Frame:\n")
+print(df)
