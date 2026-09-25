@@ -1,0 +1,9 @@
+n <- 10
+cat("Even numbers are:\n")
+for(i in 1:n) {
+  if(i %% 2 == 0) {
+    cat(i, " ")
+  }
+}
+cat("\n")
+cat("Total even numbers =", n/2)
