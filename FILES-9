@@ -1,0 +1,14 @@
+students <- c("Anu","Banu","Cathy","Divya")
+marks <- c(80,75,90,85)
+barplot(marks,
+        names.arg=students,
+        main="Student Marks",
+        xlab="Students",
+        ylab="Marks")
+pie(marks,
+    labels=students,
+    main="Student Marks Pie Chart")
+cat("Bar chart created\n")
+cat("Pie chart created\n")
+cat("Students:", students, "\n")
+cat("Marks:", marks)
