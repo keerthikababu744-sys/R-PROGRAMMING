@@ -1,0 +1,11 @@
+name <- "Keerthika"
+cat("Original:", name, "\n")
+cat("Length:", nchar(name), "\n")
+cat("Upper:", toupper(name), "\n")
+cat("Lower:", tolower(name), "\n")
+cat("First 4:", substr(name,1,4), "\n")
+cat("Replace:", sub("Keerthika","Student",name), "\n")
+cat("Repeat:", paste(name,name), "\n")
+cat("Compare:", name == "Keerthika", "\n")
+cat("Trim:", trimws("  Hello  "), "\n")
+cat("Done")
